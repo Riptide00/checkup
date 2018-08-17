@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tr",
+				"try\tTry/Except"
+			],
+			[
+				"ex",
+				"Exception\tclass"
+			],
+			[
+				"sta",
+				"status\tstatement"
+			],
+			[
+				"re",
+				"result\tstatement"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"get",
+				"get_data\tfunction"
+			],
+			[
+				"sys",
+				"system\tfunction"
+			],
+			[
+				"bash",
+				"bash_profile"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "checkup.py",
+			"settings":
+			{
+				"buffer_size": 1114,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NUL",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: Run Current File Tests"
+			],
+			[
+				"ana",
+				"Anaconda: Show error list"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"colo",
+				"Color Picker"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Gebruiker/Desktop/Development/Projects/checkup"
+	],
+	"file_history":
+	[
+		"/C/cygwin64/home/Gebruiker/.bash_profile",
+		"/C/cygwin64/home/Gebruiker/.oh-my-zsh/custom/aliases.zsh",
+		"/C/Users/Gebruiker/Desktop/Development/Projects/pywit/pywit.py",
+		"/C/Users/Gebruiker/Desktop/Development/Projects/pybot/pybot.py",
+		"/C/Users/Gebruiker/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Gebruiker/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Gebruiker/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/cygwin64/home/Gebruiker/.zshrc",
+		"/C/cygwin64/home/Gebruiker/.oh-my-zsh/custom/example.zsh",
+		"/C/cygwin64/home/Gebruiker/.profile",
+		"/C/cygwin64/home/Gebruiker/.bashrc",
+		"/C/Users/Gebruiker/Desktop/Programs/hakchi2/user_mods/README.txt",
+		"/C/Users/Gebruiker/AppData/Local/Temp/21c6f554-317b-4ede-9c76-5219136d82de.tmp.txt",
+		"/C/Users/Gebruiker/AppData/Local/Temp/af99171f-563d-4fdf-837a-db5caaa9790c.tmp.txt",
+		"/C/Users/Gebruiker/Desktop/bending_server/eula.txt",
+		"/C/Users/Gebruiker/Desktop/bending_server/run.bat",
+		"/C/Users/Gebruiker/Desktop/Bending_server/eula.txt",
+		"/C/Users/Gebruiker/Desktop/Bending_server/run.bat",
+		"/C/Users/Gebruiker/Desktop/Bending_server/server.properties",
+		"/C/Users/Gebruiker/Desktop/DoW Mod Manageger v1.4 README.txt",
+		"/C/ftb/FTBRevelation/minecraft/config/InvTweaksRules.txt"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "checkup.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "NUL",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 529.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "checkup-project.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
