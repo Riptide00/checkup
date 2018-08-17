@@ -38,7 +38,6 @@ def main():
             hosts.append(host.rstrip())
     else:
         hosts = args.hosts.split(',')
-    # TODO: Add arguments for column width, color and interval
     while True:
         try:
             draw_screen()
