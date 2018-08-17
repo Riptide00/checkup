@@ -6,15 +6,31 @@ import argparse
 
 column_width = 15
 interval = 1
-hosts = []
+args = []
 
 
 def main():
     ''' Main function. '''
     global hosts
+    global args
     parser = argparse.ArgumentParser()
-    parser.add_argument("hosts")
+    parser.add_argument("hosts",
+                        help=('Accepts a string of hosts seperated '
+                              'by a ",", or a path to file with hosts'
+                              ' seperated by a newline'))
+    parser.add_argument("-w", "--width", type=int,
+                        help="Width of the columns")
+    parser.add_argument("-i", "--interval", type=int,
+                        help="Interval at which pings are send.")
+    parser.add_argument("-c", "--color",
+                        help="Set to 'True' for colored output.")
     args = parser.parse_args()
+    if args.interval:
+        global interval
+        interval = args.interval
+    if args.width:
+        global column_width
+        column_width = args.width
     if os.path.exists(args.hosts) and os.path.isfile(args.hosts):
         f = open(args.hosts)
         content = f.readlines()
@@ -62,10 +78,16 @@ def draw_screen():
     print(raw % (column_width, '      HOST', 'STATUS'))
     for host, result in get_data():
         h = host[:column_width] if len(host) > column_width else host
-        if result:
-            print(raw % (column_width, h, green('  UP')))
+        if args.color:
+            if result:
+                print(raw % (column_width, h, green('  UP')))
+            else:
+                print(raw % (column_width, h, red(' DOWN')))
         else:
-            print(raw % (column_width, h, red(' DOWN')))
+            if result:
+                print(raw % (column_width, h, '  UP'))
+            else:
+                print(raw % (column_width, h, ' DOWN'))
     time.sleep(interval)
 
 
